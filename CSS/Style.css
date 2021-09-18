@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+{margin: 0; padding: 0;}
+/*#wrapper{background-image: url(../IMG/BG.jpg);}*/
+.container{width: 100%;height: 1000px ; }
+.top-header{width: 100%; height: 20px; background: black;}
+.top-header span{color: whitesmoke; font-size: 15px; position: relative; margin: 20px; position: relative; left: 20px}
+.col-3 img{ width: 40%; margin: 10px 20px;display: flex; justify-content: center; position: relative; left: 20px}
+.container2{width: 100%; height: 100px; background:  #D3D3D3; }
+.menu{height: 60%; position: relative; top: 20px}
+.menu ul{list-style: none;display: flex; justify-content: center; }
+.menu li{margin: 10px 20px; position: relative; top: 10px}
+.menu a{color: #323232; text-decoration: none; font-size: 18px;}
+.menu a:hover{color: red}
+.sub-menu{display: block !important; position: absolute; padding: 15px 24px; top: 25px;background: #F0F0F0;opacity: 0; visibility: hidden;transition-duration: 1s;width: 120px}
+.sub-menu li{margin: 8px 0; width: 200px}
+.menu li:hover .sub-menu{opacity: 1; visibility: visible;}
+.Social-icon{text-align: center;font-size: 30px; height: 100%; background: red}
+.Social-icon ul{list-style: none; display: flex; justify-content: center; position: relative; top: 30px;}
+.Social-icon a{text-decoration: none; color: white; font-size: 30px }
+.Social-icon a:hover{color: yellow;}
+.banner{height: 100vh}
+/*.banner video{height: 100%; width: 100%;  object-fit: cover; position: relative; top: 10px}*/
+.banner img{width: 100%; over-flow: hidden}
+.box{width: 1000px; height: 240px; margin: 0 auto; background: white; position: relative; bottom: 100px; z-index: 3}
+.box h1{position: relative; font-size: 50px; display: flex; justify-content: center; top: 30px }
+.box p{ padding: 50px 150px; display: flex; justify-content: center; align-items: center; font-size: 18px }
+.main-box{ width: 100%; height: 2400px; background: url(../IMG/BG.jpg) fixed; margin: 0 auto; position: relative; top: 260px; }
+.main-box h1{display: flex; justify-content: center; position: relative; top: -10px; font-size: 40px; height: 200px;color: antiquewhite;align-items: flex-end; justify-content: center}
+.pic{height: 400px; width: 750px; background: #42E0C5; display: flex; position: relative; left: 100px; top: 80px;}
+.pic img{width: 100%;}
+.pic2{height: 400px; width: 750px; background: white; margin: 100px; margin-top: 400px}
+.pic2 h2{position:relative; top:50px; font-size: 30px; display: flex; padding: 10px 115px;right: 50px}
+.pic2 p{padding: 70px 110px; position: relative; right: 40px;}
+.pic2 img{width: 100%}
+.content{width: 700px; height: 350px; background: white; position: absolute; left: 700px; top: 240px;}
+.content h2{position:relative; left: 55px; top: 60px; font-size: 30px}
+.content p{padding: 80px 100px; position: relative; right: 40px;}
+.content2{width: 650px; height: 350px; background: white; position: relative; left: 700px; top: -1500px; margin-top: 450px;}
+.content2 img{width: 100%}
+.content2 h2{position:relative; top:50px; font-size: 30px; display: flex; padding: 10px 115px;right: 50px}
+.content2 p{padding: 70px 110px; position: relative; right: 40px;}
+.main-box2{width: 100%; height: 900px; background:  fixed;position: absolute; top: 3660px; background: url(../IMG/130830.jpg) fixed}
+.main-box2 h1{display: flex; justify-content: center; font-size: 40px; position: relative; top: 100px;}
+.box2{ width: 750px ; height: 400px; background: red; position: absolute ; left: 380px; top:250px; border-radius: 20px}
+.box2 img{width: 100%; border-radius: 20px}
+.button {width:160px; height: 50px; background: red; position: absolute ; left: 44%; top:700px; border-radius: 20px}
+.button ul{list-style: none; display: flex; justify-content: center; margin-top: 15px;}
+.button a{text-decoration: none; color: white;}
+.button a:hover{color: yellow;}
+.footer{width: 100%; height: 400px; background: white; position: absolute; bottom: -4190px}
+.footer h2{margin: 50px 20px; position: relative; left: 100px;}
+.content3{width: 1200px; margin: 0 119px; position: relative; top: -30px; display: flex; flex-direction: column; }
+.social-icon{width: 300px; margin-top: 20px}
+.social-icon a{color: black; margin: 10px; font-size: 40px; position: relative; left: -10px}
+.social-icon a:hover{color: red}
+.footer-content{width: 900px; font-size: 10px; margin: 0 auto; color: grey; position: relative; top: 40px;}
